@@ -1,0 +1,12 @@
+*{font-size:1.4rem;}
+ul{display: flex;flex-direction: row; align-items: center;justify-content: space-around;}
+li{padding:15px 0;flex-basis: 100%;border-radius:10px 10px 0 0 ; text-align: center;}
+a{color:#E1F5FE;cursor: pointer;  display: inline-flex; align-items: center;flex-basis:100%;justify-content:space-evenly;}
+a span{margin-left:10px;}
+ul li:hover a{color: #01579B;}
+ul li:hover {background: #E1F5FE;}
+@media only screen and (max-width: 599px) { 
+    .navigation li{width: 100vw !important; border-radius: 0;}    
+}
+
+

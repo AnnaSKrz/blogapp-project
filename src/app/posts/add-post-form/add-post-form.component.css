@@ -1,0 +1,25 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  section{margin:15px 0;}
+  .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+  }
+  button{
+    font-size:1.1rem;
+    text-transform: uppercase;
+    flex-basis:25vw;
+  }
+  button mat-icon{
+    margin-right:20px;
+   }
+  .maxwidth{width:100%}
+  @media only screen and (max-width: 500px) {     
+    button{flex-basis:10vw!important}
+}
+ 
+  

@@ -1,0 +1,10 @@
+<div  class="container">
+<mat-card *ngIf="postDetails | async as post">
+    <mat-card-title class="fontColorPrimary">{{post.title}}</mat-card-title>
+    <mat-card-content>{{post.text}} </mat-card-content>
+    <mat-card-actions>
+    <button mat-raised-button color="primary" class="fontColorWhite" (click)="goToPostsList()" > Back </button>
+    <button mat-raised-button color="warn" class="fontColorWhite" (click)="delete()"> Usuń post </button>
+    </mat-card-actions>    
+</mat-card>
+</div>

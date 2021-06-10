@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post numer 1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nam faucibus convallis suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo leo vel sapien tempus bibendum. Nullam nec vestibulum diam. Donec dui ligula, auctor ut magna in, pulvinar volutpat arcu. Nulla convallis lacus vel velit scelerisque ultricies. Vestibulum ac mi lacus. Quisque eget dui feugiat, viverra odio ut, ultricies mi. Suspendisse sagittis odio dolor, eget placerat mi accumsan non. Suspendisse faucibus quam nec porttitor sagittis. Cras sed diam vitae libero commodo fringilla. Maecenas sodales rutrum odio in porttitor."
+    },
+    {
+      "id": 2,
+      "title": "Post numer 2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Nam faucibus convallis suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo leo vel sapien tempus bibendum. Nullam nec vestibulum diam. Donec dui ligula, auctor ut magna in, pulvinar volutpat arcu. Nulla convallis lacus vel velit scelerisque ultricies. Vestibulum ac mi lacus. Quisque eget dui feugiat, viverra odio ut, ultricies mi. Suspendisse sagittis odio dolor, eget placerat mi accumsan non. Suspendisse faucibus quam nec porttitor sagittis. Cras sed diam vitae libero commodo fringilla. Maecenas sodales rutrum odio in porttitor."
+    },
+    {
+      "id": 3,
+      "title": "Post numer 3",
+      "text": "Aliquam pharetra nibh quis augue imperdiet, et sagittis diam consequat. Phasellus at purus tincidunt, egestas magna vel, gravida odio. Vivamus id imperdiet ante. Integer sed nibh accumsan, posuere augue nec, malesuada nisl. Sed sit amet ante a leo viverra consequat sit amet sed justo. Proin efficitur scelerisque posuere. Phasellus egestas eu nisi at laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan neque augue, ut luctus tortor interdum quis. Nulla laoreet, arcu sit amet vehicula aliquet, orci lorem facilisis tortor, eu sollicitudin risus sem id ex. Fusce laoreet vehicula vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam dignissim scelerisque dolor, in bibendum mi consequat quis. Duis eu massa eget ex tristique ultrices. Vestibulum semper leo nec tincidunt maximus."
+    }
+  ]
+}

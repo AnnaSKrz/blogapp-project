@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*{text-decoration: none;list-style: none;margin:0 auto;padding:0;box-sizing: border-box;}
+html, body { height: 100%; }
+body {color: #424242; margin: 0; font-family: KoHo, "Helvetica Neue", sans-serif; background-color: #01579B;}
+
+h2,h3{padding:20px 0;}
+p{padding:10px 0;}
+@media only screen and (min-width: 1000px) {
+    .container{width:1000px;}
+}
+@media only screen and (max-width: 999px) {
+    .container{width:100%;}
+    button{width:100%!important}
+}

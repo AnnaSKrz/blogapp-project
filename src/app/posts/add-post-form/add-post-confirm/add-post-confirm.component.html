@@ -1,0 +1,17 @@
+<mat-nav-list>
+    <li mat-list-item >
+      <span mat-line>Post został zapisany prawidłowo.</span>
+    </li>  
+    <li> 
+      <a routerLink="/posts"> 
+        <button mat-button color="primary" aria-label="Zobacz posty" (click)="closePostConfirm()">
+          <mat-icon>format_list_bulleted</mat-icon> 
+          Zobacz posty</button> 
+      </a></li>
+      <li> 
+        <a routerLink="posts/add"> 
+          <button mat-button color="primary" aria-label="Dodaj nowy post" (click)="closePostConfirm()">
+            <mat-icon>add_circle_outline</mat-icon> 
+            Dodaj nowy post</button> 
+        </a></li>
+  </mat-nav-list>

@@ -1,0 +1,57 @@
+<mat-card class="container">
+    <mat-card-title>{{pageTitle}}</mat-card-title>
+    <form #postForm="ngForm" (ngSubmit)="send()">
+        <section class="title">
+            <mat-form-field appearance="outline" [color]="colorControl.value" class="maxwidth" >
+            <mat-label for="title">Wpisz tytuł posta</mat-label>
+             <input id="title" type="text" matInput placeholder="Wpisz tytuł"
+              [(ngModel)]="model.title" 
+              name="title" 
+              required
+              #title="ngModel"             
+              minlength="5">
+            <mat-icon matSuffix [color]="colorControl.value"> create</mat-icon>
+             <mat-hint class="fontColorAccent">*pole wymagane</mat-hint>             
+            </mat-form-field>
+            <ng-container *ngIf = "title.invalid && title.touched">
+                <mat-hint class="fontColorWarn" *ngIf="title.errors?.minlength">
+                    Tekst jest za krótki
+                </mat-hint>
+                <mat-hint class="fontColorWarn" *ngIf="title.errors?.required">
+                    Pole wymagane
+                </mat-hint>
+             </ng-container>
+        </section>
+        <section >
+            <mat-form-field appearance="outline" class="maxwidth">
+                <mat-icon matSuffix [color]="colorControl.value"> create</mat-icon>
+                <mat-label>Tutaj wpisz treść posta</mat-label>
+                <textarea matInput style="height:200px" 
+                [(ngModel)] = "model.text" 
+                name="text"
+                #text="ngModel"
+                required
+                minlength="10"></textarea>
+                <mat-hint class="fontColorAccent">*pole wymagane</mat-hint>
+              </mat-form-field>
+              <ng-container *ngIf = "text.invalid && text.touched">
+                <mat-hint class="fontColorWarn" *ngIf="text.errors?.minlength">
+                    Tekst jest za krótki
+                </mat-hint>
+                <mat-hint class="fontColorWarn" *ngIf="text.errors?.required">
+                    Pole wymagane
+                </mat-hint>
+             </ng-container>
+        </section>
+        <section class="button">
+            <button mat-raised-button color="accent" type="submit" mat-raised-button  [disabled]="postForm.invalid">
+                <mat-icon class="fontColorWhite" > add</mat-icon>
+               <span  class="fontColorWhite">Dodaj</span> 
+            </button>
+            <button mat-raised-button color="warn" type="reset">
+                <mat-icon class="fontColorWhite" > backspace</mat-icon>
+               <span  class="fontColorWhite">Wyczyść</span> 
+            </button>
+        </section>
+    </form>
+</mat-card>
