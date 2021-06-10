@@ -2,26 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
-## Development server
+## Na czym polega aplikacja?
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Aplikacja polega na dodawaniu, usuwaniu oraz przeglądaniu postów potencjalnego bloga.
 
-## Code scaffolding
+## Wykorzystane technik:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Angular
 
-## Build
+* Angular Material, Angular Flex-Layout
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* JSON Server
 
-## Running unit tests
+* FlexBox
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* Google Fonts, Google Icons
 
-## Running end-to-end tests
+* SASS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Jak działa aplikacja?
+W głównym menu znajdują się 3 pola będące odnośnikami mającymi na celu przekierowanie użytkownika na właściwe podstrony.
+1. Strona Home, czyli Strona główna,
+2. Postrona "Lista postów" - mająca za zadanie wyświetlenie wszystkich postów. Z tej podstrony można wyświetlić widok pojedynczego posta, a także usunąć wybrany post.
+3. Podstrona "Dodaj post" - zawierająca formularz dodawania nowego posta.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
