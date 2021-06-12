@@ -1,22 +1,22 @@
 <div class="container" >
     <ul class="navigation" fxLayout="row" fxLayoutAlign="space-around"  fxLayout.xs="column" >
         <li>
-          <a routerLink="/home">
-            <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
-            <span> Home</span>
-          </a>
+          <a routerLink="/home" routerLinkActive="active">
+            <mat-icon aria-hidden="false" >home</mat-icon>
+             Home
+            </a>
         </li>
         <li>
-          <a routerLink="/posts"> 
-            <mat-icon aria-hidden="false" aria-label="Example home icon">
+          <a routerLink="/posts" routerLinkActive="active"> 
+            <mat-icon aria-hidden="false" >
                 format_list_bulleted
             </mat-icon>
             <span>Lista postów</span>
           </a>
         </li>
         <li>
-          <a routerLink="posts/add"> 
-            <mat-icon aria-hidden="false" aria-label="Example home icon">
+          <a routerLink="posts/add" routerLinkActive="active"> 
+            <mat-icon aria-hidden="false" >
                 add_circle_outline
             </mat-icon>
           <span> Dodaj post</span>

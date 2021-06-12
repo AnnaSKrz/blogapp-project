@@ -1,0 +1,4 @@
+.header{flex-wrap:wrap;}
+.header img{width:100vw;height:10vh;}
+p{position:absolute;width:100%;text-align: center;line-height:10vh;color:#E1F5FE;}
+.main{padding:20px;background-color: #E1F5FE;}

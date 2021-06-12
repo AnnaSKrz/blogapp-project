@@ -1,2 +1,4 @@
 mat-card-title, mat-card-subtitle{padding:10px 0;}
-mat-card-title div {float:left;margin-right:20px}
+mat-card-title div {float:right;}
+.mat-card-avatar {height:auto;width:200px;float:right}
+.mat-card-avatar img {width:200px;}

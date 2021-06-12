@@ -1,4 +1,6 @@
-.header {background: url('../assets/bg.jpg') no-repeat;}
-h1{width:100%;text-align: center;padding:50px 0;color:#E1F5FE;}
+.header{flex-wrap:wrap;}
+.header img{width:100vw;height:20vh;}
+h1{position:absolute;width:100%;text-align: center;line-height:20vh;color:#E1F5FE;}
 .main{padding:20px;background-color: #E1F5FE;}
+
 

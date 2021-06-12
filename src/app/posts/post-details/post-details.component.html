@@ -1,5 +1,5 @@
 <div  class="container">
-<mat-card *ngIf="postDetails | async as post">
+<mat-card *ngIf="postDetails | async as post; else loading">
     <mat-card-title class="fontColorPrimary">{{post.title}}</mat-card-title>
     <mat-card-content>{{post.text}} </mat-card-content>
     <mat-card-actions>
@@ -8,3 +8,13 @@
     </mat-card-actions>    
 </mat-card>
 </div>
+<ng-template #loading>
+    <div  class="container">
+        <mat-card>
+            <mat-card-title>
+                Post sie wczytuje... proszę czekać.
+            </mat-card-title>
+            <img mat-card-image src="https://www.seosecretsauce.com/wp-content/uploads/2020/01/SEO-Your-Website-Speed-Load-MATTERS.png" alt="Loading, please wait">             
+        </mat-card>
+    </div>
+</ng-template>

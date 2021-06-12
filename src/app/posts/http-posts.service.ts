@@ -13,9 +13,6 @@ export class HttpPostsService  {
 
   constructor(private http: HttpClient) { }
 
-  // public getPosts(): Observable<Post[]>{
-  //   return this.http.get<Post[]>(this.url +'/posts').pipe(tap(console.log));
-  // }
   public getPostsList(): Observable<Post[]>{
     return this.http.get<Post[]>(this.url );
   }

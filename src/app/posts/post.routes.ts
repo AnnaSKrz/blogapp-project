@@ -11,5 +11,5 @@ export const postRoutes: Routes = [
     {path:'posts', component: PostsListComponent},
     {path:'posts/add', component: AddPostFormComponent},
     {path: 'posts/:postId', component: PostDetailsComponent},
-    {path:'**', component: PageNotFoundComponent},
+    {path: '**', component: PageNotFoundComponent},
 ]

@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Aplikacja polega na dodawaniu, usuwaniu oraz przeglądaniu postów potencjalnego bloga.
 
-## Wykorzystane technik:
+## Wykorzystane techniki:
 
 * Angular
 

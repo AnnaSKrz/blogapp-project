@@ -13,13 +13,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { PostsModule } from './posts/posts.module';
 import { MatCardModule } from '@angular/material/card';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavigationComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    FooterComponent
+    
   ],
   imports: [
     BrowserModule,
